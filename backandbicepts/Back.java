@@ -1,6 +1,6 @@
 package backandbicepts;
 
-import backandbicepts.BackExercises;
+import backandbicepts.backexercises.BackExercise;
 
 public class Back{
 
@@ -19,9 +19,14 @@ public class Back{
   }
 
   public Back(BackExercise backExercise1, BackExercise backExercise2, BackExercise backExercise3, BackExercise backExercise4, BackExercise backExercise5){
-    this.setBackExercise1(backExercise1);
-    this.setBackExercise2(backExercise2);
-    this.setBackExercise3(backExercise3);
-    this.setBackExercise4(backExercise4);
-    this.setBackExercise5(backExercise5);
+    this.backExercise1 = backExercise1;
+    this.backExercise2 = backExercise2;
+    this.backExercise3 = backExercise3;
+    this.backExercise4 = backExercise4;
+    this.backExercise5 = backExercise5;
   }
+
+  public String toString(){
+    return backExercise1 + "\n" + backExercise2 + "\n" + backExercise3 + "\n" + backExercise4 + "\n" + backExercise5;
+  }
+}
