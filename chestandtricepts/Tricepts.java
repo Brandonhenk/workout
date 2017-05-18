@@ -1,4 +1,4 @@
-package workout.chestandtricepts;
+package chestandtricepts;
 import chestandtricepts.triceptexercises.TriceptExercise;
 
 public class Tricepts{
