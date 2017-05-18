@@ -1,11 +1,11 @@
-package backandbicepts.biceptexercises;
-import backandbicepts.Bicepts;
+package chestandtricepts.chestexercises;
+import chestandtricepts.Chest;
 
-public class BiceptExercise{
+public class ChestExercise{
   String exercise;
   String detail;
 
-  public BiceptExercise(String exercise, String detail){
+  public ChestExercise(String exercise, String detail){
     this.exercise = exercise;
     this.detail = detail;
   }
@@ -13,5 +13,4 @@ public class BiceptExercise{
   public String toString(){
     return "Exercise: " + exercise + "\nDetail: " + detail;
   }
-
 }
